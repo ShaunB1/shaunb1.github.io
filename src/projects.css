@@ -1,0 +1,85 @@
+:root {
+  background-color: rgb(5, 5, 44);
+}
+
+html,
+body {
+  margin: 0;
+  margin-bottom: 70px;
+}
+
+#header {
+  width: 99vw;
+  height: 70px;
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(0, 183, 122);
+}
+
+.coloured-text {
+  color: rgb(0, 183, 122);
+}
+
+#resume {
+  margin-right: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 183, 122);
+  background-color: transparent;
+  color: rgb(0, 183, 122);
+  padding: 10px;
+}
+
+#resume:hover {
+  cursor: pointer;
+}
+
+#projects-container {
+  width: 60vw;
+  margin: auto;
+}
+
+#rima > .project-name,
+#blueboy > .project-name,
+#radio > .project-name {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+#rima > img,
+#blueboy > img,
+#radio > img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#rima > img {
+  width: 50%;
+}
+
+#rima > .desc {
+  color: white;
+}
+
+#blueboy > img {
+  width: 50%;
+}
+
+#radio > img {
+  width: 50%;
+}

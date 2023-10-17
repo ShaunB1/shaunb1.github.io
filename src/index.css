@@ -1,0 +1,74 @@
+:root {
+  background-color: rgb(5, 5, 44);
+}
+
+html,
+body {
+  margin: 0;
+}
+
+#header {
+  width: 99vw;
+  height: 70px;
+  font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(0, 183, 122);
+}
+
+.coloured-text {
+  color: rgb(0, 183, 122);
+}
+
+#resume {
+  margin-right: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 183, 122);
+  background-color: transparent;
+  color: rgb(0, 183, 122);
+  padding: 10px;
+}
+
+#resume:hover {
+  cursor: pointer;
+}
+
+#intro {
+  margin-left: 20vw;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+
+#greeting {
+  color: rgb(0, 183, 122);
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+#name {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  margin: 0;
+}
+
+#desc {
+  color: rgb(183, 183, 183);
+  width: 500px;
+  line-height: 1.5;
+}
