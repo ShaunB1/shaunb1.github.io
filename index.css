@@ -40,6 +40,10 @@ a:hover {
   padding: 10px;
 }
 
+#resume a {
+  color: rgb(0, 183, 122);
+}
+
 #resume:hover {
   cursor: pointer;
 }

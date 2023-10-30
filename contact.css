@@ -1,0 +1,78 @@
+:root {
+    background-color: rgb(5, 5, 44);
+  }
+  
+  html,
+  body {
+    margin: 0;
+  }
+  
+  #header {
+    width: 99vw;
+    height: 70px;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+    gap: 40px;
+  }
+  
+  #header  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #header > a:hover {
+    color: rgb(0, 183, 122);
+  }
+  
+  .coloured-text {
+    color: rgb(0, 183, 122);
+  }
+  
+  #resume {
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 183, 122);
+    background-color: transparent;
+    color: rgb(0, 183, 122);
+    padding: 10px;
+  }
+
+  #resume a {
+    color: rgb(0, 183, 122);
+  }
+  
+  #resume:hover {
+    cursor: pointer;
+  }
+
+  #container {
+    position: relative;
+    top: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 5px;
+  }
+
+    #contact {
+        margin-left: 20px;
+    }
+
+  #container p {
+    color: white;
+  }
+
+  #container a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #container a:hover {
+    color: rgb(0, 183, 122);
+  }

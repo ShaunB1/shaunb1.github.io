@@ -5,7 +5,6 @@
 html,
 body {
   margin: 0;
-  margin-bottom: 70px;
 }
 
 #header {
@@ -39,6 +38,10 @@ a:hover {
   background-color: transparent;
   color: rgb(0, 183, 122);
   padding: 10px;
+}
+
+#resume a {
+  color: rgb(0, 183, 122);
 }
 
 #resume:hover {
